@@ -1,7 +1,6 @@
 
 
-![iPhone 13 Pro](https://github.com/Mostafagamiil/south_supplier/assets/74520574/c2fc477b-f9fa-4ee4-be4f-0f634ddcaeba)
-![Galaxy Note 20 Ultra-2](https://github.com/Mostafagamiil/south_supplier/assets/74520574/39932c9d-d395-4831-9202-ab723097d2ed)
+![iPhone 13 Pro](https://github.com/Mostafagamiil/south_supplier/assets/74520574/c2fc477b-f9fa-4ee4-be4f-0f634ddcaeba)    ![Galaxy Note 20 Ultra-2](https://github.com/Mostafagamiil/south_supplier/assets/74520574/39932c9d-d395-4831-9202-ab723097d2ed)
 
 
 
