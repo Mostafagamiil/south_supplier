@@ -15,7 +15,8 @@ main_page.dart:
     If the user is authenticated, the appropriate home page (AdminHome or SuperVisorHomePage) is displayed based on the user's email domain.
     If the user is not authenticated, the login screen (AdminloginScreen) is displayed.
 
-loginScreen.dart :     
+loginScreen.dart :  
+
     The widget imports necessary packages such as cloud_firestore, firebase_auth, firebase_messaging, and flutter/material.
     It also imports custom widgets and constants required for the UI.
     The AdminloginScreen class is a stateful widget that represents the login screen for admins and supervisors.
@@ -29,6 +30,7 @@ loginScreen.dart :
     The UI consists of an image, welcome text, text fields for email and password, radio buttons to select the role, and a "تسجيل دخول" button. 
 
 AdminHomePage.dart :     
+
     Properties:
       _firebaseMessaging: An instance of FirebaseMessaging used for handling push notifications.
         user: The currently logged-in user obtained from FirebaseAuth.
@@ -38,6 +40,7 @@ AdminHomePage.dart :
         _query: A string used to filter the customers based on their name or national ID.
 
  Methods:
+ 
         initState(): Overrides the initState method to initialize the streams for customers and notifications.
         build(BuildContext context): Overrides the build method to construct the UI for the admin home screen.
         The UI includes an AppBar with buttons for navigation, logout, and notifications.
@@ -47,6 +50,7 @@ AdminHomePage.dart :
         Tapping on a customer card shows a bottom sheet with detailed information about the customer.
 
 Add_Item.dart :     
+
     The HomePage class extends StatefulWidget and represents the home screen of the app.
     The class has several properties and methods:
         Properties:
@@ -79,6 +83,7 @@ Add_Item.dart :
 
 
 notification.dart :     
+
     The NotificationScreen class extends StatefulWidget and represents the screen for displaying notifications.
     The class has several properties and methods:
         Properties:
@@ -104,10 +109,11 @@ notification.dart :
             As the user scrolls to the bottom, more notifications are loaded and displayed.
                 A loading card is shown while more data is being loaded.
 
-The code uses the cloud_firestore, flutter/material, and intl packages. It interacts with Firestore to retrieve notifications and displays them in a scrollable list. When the user scrolls to the bottom, more notifications are loaded and displayed. The UI provides a smooth scrolling experience and shows a loading indicator while loading more data.
+    The code uses the cloud_firestore, flutter/material, and intl packages. It interacts with Firestore to retrieve notifications and displays them in a scrollable list. When the user scrolls to the bottom, more notifications are loaded and displayed. The UI provides a smooth scrolling experience and shows a loading indicator while loading more data.
 
 
 SVHomePage.dart :     
+
     The code imports necessary packages and dependencies.
 
     The SuperVisorHomePage class is defined as a stateful widget.
@@ -145,7 +151,8 @@ SVHomePage.dart :
 
 
 
-AddCustomerScreen.dart :     
+AddCustomerScreen.dart : 
+
     Import necessary packages from Flutter and Firebase.
     Define a stateful widget called AddCustomerScreen that takes in customerId, nationalId, and token as parameters.
     Inside the widget, initialize necessary variables and controllers.
@@ -157,4 +164,6 @@ AddCustomerScreen.dart :
     Handle form submission, validate inputs, and update Firestore documents based on user input.
     Show a loading indicator while performing asynchronous operations.
 
-Note: The code relies on external files, such as firebase_helper.dart, local_notification_service.dart, const.dart, and item_model.dart, which are not included in the provided code.
+Note:
+
+    The code relies on external files, such as firebase_helper.dart, local_notification_service.dart, const.dart, and item_model.dart, which are not included in the provided code.
