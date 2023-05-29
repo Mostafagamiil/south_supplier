@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "459276707825",
+    "project_id": "first-project-13d5e",
+    "storage_bucket": "first-project-13d5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459276707825:android:764f5b89739b043eba8650",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459276707825-6dgo7rhuacvad6jt2hcjg6701vtotvqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDasGta0rfOjzwMFnTVELWprU2SAnuC4rE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459276707825-6dgo7rhuacvad6jt2hcjg6701vtotvqi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "459276707825-40n289cha4tqnjpapin5iomf3osscalg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hakibastore"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459276707825:android:a675876bafb80535ba8650",
+        "android_client_info": {
+          "package_name": "com.example.southcater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459276707825-6dgo7rhuacvad6jt2hcjg6701vtotvqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDasGta0rfOjzwMFnTVELWprU2SAnuC4rE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459276707825-6dgo7rhuacvad6jt2hcjg6701vtotvqi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "459276707825-40n289cha4tqnjpapin5iomf3osscalg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hakibastore"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459276707825:android:65bae9f6343b00efba8650",
+        "android_client_info": {
+          "package_name": "com.example.southsupply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459276707825-6dgo7rhuacvad6jt2hcjg6701vtotvqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDasGta0rfOjzwMFnTVELWprU2SAnuC4rE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459276707825-6dgo7rhuacvad6jt2hcjg6701vtotvqi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "459276707825-40n289cha4tqnjpapin5iomf3osscalg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hakibastore"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
